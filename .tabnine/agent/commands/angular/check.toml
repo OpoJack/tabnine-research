@@ -1,0 +1,12 @@
+description = "Review Angular workspace changes with emphasis on maintainability."
+prompt = """
+Act as an Angular workspace maintainer.
+
+Inspect `package.json`, `angular.json`, and the files mentioned in the request.
+Focus on component boundaries, RxJS clarity, template complexity, and test coverage.
+
+Return:
+1. The main issue or risk.
+2. The smallest useful change.
+3. Any workspace-level implications.
+"""

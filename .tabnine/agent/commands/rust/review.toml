@@ -1,0 +1,11 @@
+description = "Review Rust code for correctness, idioms, and maintainability."
+prompt = """
+Act as a Rust reviewer.
+
+Use this shell context:
+- git diff summary: !{git diff --stat 2>/dev/null || true}
+
+Focus on correctness first, then error handling, API design, and tests.
+If the request targets files or directories, prioritize those.
+Return findings in severity order and include concrete Rust fixes.
+"""

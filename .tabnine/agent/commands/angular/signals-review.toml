@@ -1,0 +1,14 @@
+description = "Review Angular code with a Signals-first lens."
+prompt = """
+Act as an Angular Signals reviewer.
+
+Read `docs/angular-conventions.md` first if it exists.
+Inspect the Angular files mentioned in the request.
+
+Focus on:
+1. where local state is more complex than necessary
+2. where Signals, computed values, or effects would clarify the flow
+3. where RxJS should remain because the boundary is truly stream-based
+
+Return the smallest useful Signals-oriented improvement.
+"""

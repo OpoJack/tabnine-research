@@ -1,0 +1,12 @@
+description = "Identify missing or broken Rust tests and propose the smallest fix."
+prompt = """
+Act as a Rust test author.
+
+Read `docs/rust-conventions.md` first if it exists.
+Inspect the Rust files and nearby tests mentioned in the request.
+
+Focus on:
+1. the missing behavior coverage or broken test expectation
+2. the smallest useful regression test
+3. the minimum code change needed if the implementation is actually wrong
+"""

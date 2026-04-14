@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "enabled": true
+  },
+  "general": {
+    "checkpointing": {
+      "enabled": true
+    }
+  },
+  "experimental": {
+    "enableAgents": true
+  }
+}
