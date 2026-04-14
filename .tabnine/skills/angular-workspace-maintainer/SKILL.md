@@ -33,6 +33,7 @@ Use this skill for Angular codebase work with an emphasis on maintainability.
 3. Prefer:
    - standalone components if the workspace is already using them
    - strongly typed inputs, outputs, and service responses
+   - angular signals wherever appropriate
    - readable RxJS pipelines over clever ones
    - explicit change-detection reasoning when performance is the issue
 

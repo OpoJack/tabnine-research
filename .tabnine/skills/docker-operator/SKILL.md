@@ -27,6 +27,7 @@ Use this skill when the task is mainly about Docker behavior or Docker-oriented 
    - scripts invoked by image entrypoints
 3. When suggesting commands, prefer this order:
    - `docker compose config`
+   - `docker compose build`
    - `docker build`
    - `docker run`
    - `docker logs`
